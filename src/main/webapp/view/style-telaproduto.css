@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Smooch Sans', sans-serif;
+  background-image: url(Blog-correios.jpg);
+  color: #ffffff;
+}
+
+h1{
+  font-size: 2.25em;
+  margin: 40px auto;
+}
+
+.card{
+  min-width: 320px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1c1c1d;
+}
+
+span{
+  font-size: 1.5em;
+  margin: 15px auto;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5d5c5c;
+  margin:15px auto;
+  padding: 8px;
+  font-size: 1.5em;
+  box-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 1px black;
+}
+a:active{
+  transform: translateY(3px);
+}
